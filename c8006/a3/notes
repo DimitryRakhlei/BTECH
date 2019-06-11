@@ -1,0 +1,3 @@
+found command to execute scripts on change: entr
+	- can execute string commands -s
+	- can execute scripts

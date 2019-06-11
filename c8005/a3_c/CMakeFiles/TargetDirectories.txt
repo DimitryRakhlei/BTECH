@@ -1,0 +1,4 @@
+/home/dimitry/Documents/c8005/a3_c/CMakeFiles/rebuild_cache.dir
+/home/dimitry/Documents/c8005/a3_c/CMakeFiles/edit_cache.dir
+/home/dimitry/Documents/c8005/a3_c/src/CMakeFiles/rebuild_cache.dir
+/home/dimitry/Documents/c8005/a3_c/src/CMakeFiles/edit_cache.dir

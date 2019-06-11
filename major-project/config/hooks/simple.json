@@ -1,0 +1,65 @@
+{
+    "configuration": {
+        "results_folder": "/home/dimitry/Documents/major_project/runtime"
+    },
+    "hooks": [
+        {
+            "name": "vnc.VNCHook",
+            "configuration": {
+                "start_vnc": "post_poweron"
+            }
+        },
+        {
+            "name": "plugins.screen.ScreenHook",
+            "configuration": {
+                "screenshot_on_event": [
+                    "snapshots_capture"
+                ]
+            }
+        },
+        {
+            "name": "plugins.commands.CommandsHook",
+            "configuration": {
+                "agent-port": 8080
+            }
+        },
+        {
+            "name": "plugins.network.NetworkTracerHook",
+            "configuration": {
+                "start_trace_on_event": "ip_address",
+                "stop_trace_on_event": "post_shutdown",
+                "delete_trace_file": false
+            }
+        },
+        {
+            "name": "plugins.network.NetworkAnalysisHook",
+            "configuration": {
+                "start_processing_on_event": "start_analysis",
+                "wait_processing_on_event": "wait_analysis",
+                "log_format": "text"
+            }
+        },
+        {
+            "name": "plugins.disk.DiskCheckPointHook",
+            "configuration": {
+                "checkpoint_on_event": [
+                    "ip_address",
+                    "post_shutdown"
+                ],
+                "delete_checkpoints": true
+            }
+        },        
+        {
+            "name": "plugins.disk.DiskStateAnalyser",
+            "configuration": {
+                "identify_files": false,
+                "get_file_size": false,
+                "extract_files": false,
+                "use_concurrency": false,
+                "compare_registries": false,
+                "start_processing_on_event": "start_analysis",
+                "wait_processing_on_event": "wait_analysis"
+            }
+        }
+    ]
+}

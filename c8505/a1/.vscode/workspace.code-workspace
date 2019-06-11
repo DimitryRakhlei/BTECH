@@ -1,0 +1,11 @@
+{
+	"folders": [],
+	"settings": {
+		"files.associations": {
+			"socket.h": "c",
+			"iostream": "c"
+		},
+		"clang-format.executable": "clang-format",
+		"clang-format.style": "file"
+	}
+}

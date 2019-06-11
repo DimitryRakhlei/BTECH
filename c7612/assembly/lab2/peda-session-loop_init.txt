@@ -1,0 +1,2 @@
+break /home/dimitry/Documents/c7612/assembly/lab2/loop_init.asm:15
+

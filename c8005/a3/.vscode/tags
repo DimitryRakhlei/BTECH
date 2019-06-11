@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AF_INET	../src/sock_lib/connection.py	/^from socket import AF_INET$/;"	kind:namespace	line:3
+SOCK_STREAM	../src/sock_lib/connection.py	/^from socket import SOCK_STREAM$/;"	kind:namespace	line:4
+Thread	../src/port_forwarder.py	/^from threading import Thread$/;"	kind:namespace	line:4
+__init__	../src/sock_lib/connection.py	/^    def __init__(self):$/;"	kind:member	line:7
+__init__.py	../src/sock_lib/__init__.py	1;"	kind:file	line:1
+argv	../src/port_forwarder.py	/^from sys import argv$/;"	kind:namespace	line:3
+client	../src/port_forwarder.py	/^def client():$/;"	kind:function	line:17
+connect	../src/sock_lib/connection.py	/^    def connect(self, addr:tuple):$/;"	kind:member	line:11
+connection	../src/port_forwarder.py	/^from sock_lib.connection import connection$/;"	kind:namespace	line:2
+connection	../src/sock_lib/connection.py	/^class connection(object):$/;"	kind:class	line:6
+connection.py	../src/sock_lib/connection.py	1;"	kind:file	line:1
+connection_settings	../src/port_forwarder.py	/^connection_settings = {$/;"	kind:variable	line:6
+ct	../src/port_forwarder.py	/^ct = Thread(target=client)$/;"	kind:variable	line:23
+establish_listener	../src/sock_lib/connection.py	/^    def establish_listener(self, addr:tuple):$/;"	kind:member	line:19
+port_forwarder.py	../src/port_forwarder.py	1;"	kind:file	line:1
+server	../src/port_forwarder.py	/^def server():$/;"	kind:function	line:11
+socket	../src/sock_lib/connection.py	/^import socket$/;"	kind:namespace	line:2
+st	../src/port_forwarder.py	/^st = Thread(target=server)$/;"	kind:variable	line:24

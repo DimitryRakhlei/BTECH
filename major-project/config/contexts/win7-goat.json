@@ -1,0 +1,23 @@
+{
+    "hypervisor": "qemu:///system",
+    "domain": {
+        "configuration": "/home/dimitry/Documents/major_project/config/xml/win7-goat.xml"
+    },
+    "disk": {
+        "image": {
+            "uri": "/home/dimitry/Documents/major_project/downloads/w7.qcow2",
+            "provider": "see.image_providers.DummyProvider"
+        },
+        "clone": {
+            "storage_pool_path": "/home/dimitry/Documents/major_project/runtime",
+            "copy_on_write": true
+        }
+    },
+    "network": {
+        "dynamic_address": {
+            "ipv4": "192.168.0.0",
+            "prefix": 16,
+            "subnet_prefix": 24
+        }
+    }
+}

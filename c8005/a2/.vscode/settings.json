@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "list.h": "c",
+        "connection.h": "c",
+        "system_error": "c",
+        "array": "c",
+        "string_view": "c"
+    },
+    "python.pythonPath": "/bin/python3"
+}

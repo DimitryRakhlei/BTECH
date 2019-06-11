@@ -1,0 +1,9 @@
+[Unit]
+Description=IPS
+After=sshd.service
+
+[Service]
+ExecStart=/usr/local/etc/a3ips/runner.sh
+
+[Install]
+WantedBy=multi-user.target

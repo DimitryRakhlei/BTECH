@@ -1,0 +1,13 @@
+{
+    "editor.formatOnSave": true,
+    "clang-format.executable": "clang-format",
+    "clang-format.style": "file",
+    "files.associations": {
+        "types.h": "c",
+        "array": "c",
+        "deque": "c",
+        "list": "c",
+        "vector": "c",
+        "string_view": "c"
+    }
+}
